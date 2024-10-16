@@ -1,0 +1,57 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+}
+
+.center {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+.hero {
+	flex: 40%;
+	display: flex;
+	align-items: center;
+}
+
+.hero_image {
+	width: 100%;
+}
+
+.logo {
+}
+
+.form_container {
+	background-color: whitesmoke;
+	flex: 60%;
+	display: flex;
+	flex-direction: column;
+}
+
+.form_caption {
+	flex: 33%;
+	display: flex;
+	align-items: end;
+	padding-bottom: 40px;
+	padding-left: 40px;
+}
+
+.form_inputFields {
+	background-color: white;
+	flex: 34%;
+	padding-left: 40px;
+}
+.form_footer {
+	padding-top: 40px;
+	padding-left: 40px;
+	flex: 33%;
+}
