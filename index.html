@@ -27,6 +27,49 @@
 					</div>
 					<div class="form_inputFields">
 						<h2>Let's do this!</h2>
+						<form action="exampleAPI-URL.com/path" method="post">
+							<fieldset>
+								<div class="form_field">
+									<label for="first_name">First name: </label>
+									<input type="text" id="first_name" name="first_name" required />
+								</div>
+
+								<div class="form_field">
+									<label for="last_name">Last name: </label>
+									<input type="text" id="last_name" name="last_name" required />
+								</div>
+							</fieldset>
+
+							<fieldset>
+								<div class="form_field">
+									<label for="email">Email: </label>
+									<input type="email" id="email" name="email" required />
+								</div>
+
+								<div class="form_field" style="width: 200px">
+									<label for="phone_number">Phone number: </label>
+									<input
+										type="number"
+										id="phone_number"
+										name="phone_number"
+										required
+										min="1"
+										max="999999999"
+									/>
+								</div>
+							</fieldset>
+
+							<fieldset>
+								<div class="form_field">
+									<label for="password">Password: </label>
+									<input type="password" id="password" name="password" required />
+								</div>
+								<div class="form_field">
+									<label for="confirm_password">Confirm password: </label>
+									<input type="password" id="confirm_password" name="confirm_password" required />
+								</div>
+							</fieldset>
+						</form>
 					</div>
 					<div class="form_footer">
 						<button class="btn_createAccount">Create Account</button>
